@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ilias Zaki — Data Engineer & Analyst</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">IZ<span class="accent">.</span></div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-hamburger" id="hamburger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <p class="hero-greeting">Hi, I'm</p>
+            <h1 class="hero-name">Ilias Zaki</h1>
+            <div class="hero-typing">
+                <span id="typed-text"></span><span class="cursor">|</span>
+            </div>
+            <p class="hero-desc">Passionate about building scalable data systems and turning raw data into actionable decisions.</p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+        </div>
+        <div class="hero-orb orb-1"></div>
+        <div class="hero-orb orb-2"></div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2 class="section-title fade-in">About <span class="accent">Me</span></h2>
+            <div class="about-grid">
+                <div class="about-text fade-in">
+                    <p>I'm a <strong>Data Engineer & Analyst</strong> with hands-on experience designing and operating end-to-end data platforms in production environments.</p>
+                    <p>Over the past year, I built lakehouse architectures on Microsoft Fabric, orchestrated ETL pipelines, and delivered Power BI dashboards used by business teams daily. I thrive at the intersection of engineering and analytics — I build the systems and I use them.</p>
+                    <p>Outside of data, I explore blockchain systems, quantum computing algorithms, and optimization problems — because the best engineers stay curious.</p>
+                </div>
+                <div class="about-stats fade-in">
+                    <div class="stat-card">
+                        <span class="stat-number">1+</span>
+                        <span class="stat-label">Year Experience</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">9+</span>
+                        <span class="stat-label">Projects</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience">
+        <div class="container">
+            <h2 class="section-title fade-in">Work <span class="accent">Experience</span></h2>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3>Data Engineer</h3>
+                                <span class="timeline-company">CTDI GmbH · CTDI Europe</span>
+                            </div>
+                            <span class="timeline-date">2024 — 2025</span>
+                        </div>
+                        <ul class="timeline-bullets">
+                            <li>Built and maintained lakehouse pipelines on <strong>Microsoft Fabric</strong> with Delta Lake and Azure Data Lake Gen2</li>
+                            <li>Designed Kimball star schema models — fact/dimension tables, SCD Type 2, surrogate keys</li>
+                            <li>Developed <strong>PySpark</strong> transformation jobs processing millions of rows on distributed clusters</li>
+                            <li>Orchestrated ETL workflows with Airflow and dbt; delivered <strong>Power BI</strong> dashboards with complex DAX measures</li>
+                        </ul>
+                        <div class="timeline-tags">
+                            <span class="tag">Microsoft Fabric</span>
+                            <span class="tag">PySpark</span>
+                            <span class="tag">Delta Lake</span>
+                            <span class="tag">Azure Data Lake Gen2</span>
+                            <span class="tag">Power BI</span>
+                            <span class="tag">DAX</span>
+                            <span class="tag">Airflow</span>
+                            <span class="tag">dbt</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <h2 class="section-title fade-in">Tech <span class="accent">Stack</span></h2>
+            <div class="skills-grid">
+                <div class="skill-category fade-in">
+                    <h3><span class="skill-icon">⚙️</span> Data & Cloud</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PySpark</span>
+                        <span class="skill-tag">Delta Lake</span>
+                        <span class="skill-tag">Microsoft Fabric</span>
+                        <span class="skill-tag">Azure Data Lake</span>
+                        <span class="skill-tag">Apache Airflow</span>
+                        <span class="skill-tag">dbt</span>
+                        <span class="skill-tag">Power BI</span>
+                        <span class="skill-tag">Hadoop</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3><span class="skill-icon">💻</span> Languages & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Django</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">PHP</span>
+                    </div>
+                </div>
+                <div class="skill-category fade-in">
+                    <h3><span class="skill-icon">🚀</span> Infrastructure & ML</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Terraform</span>
+                        <span class="skill-tag">GitHub Actions</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">scikit-learn</span>
+                        <span class="skill-tag">Qiskit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2 class="section-title fade-in">Main <span class="accent">Projects</span></h2>
+            <div class="filter-bar fade-in">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="data">Data Engineering</button>
+                <button class="filter-btn" data-filter="web">Web & Cloud</button>
+                <button class="filter-btn" data-filter="ml">ML & AI</button>
+                <button class="filter-btn" data-filter="research">Research</button>
+            </div>
+            <div class="projects-grid">
+
+                <div class="project-card fade-in" data-category="data">
+                    <div class="project-header">
+                        <span class="project-category-badge data">Data Engineering</span>
+                        <a href="https://github.com/iliaszaki/agora" target="_blank" class="project-link" aria-label="View on GitHub">↗</a>
+                    </div>
+                    <h3>agora</h3>
+                    <p>End-to-end e-commerce data platform with Kimball star schema, Airflow orchestration and dbt transformations. Models fact tables, dimensions and slowly changing dimensions.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>Airflow</span><span>dbt</span><span>PostgreSQL</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="data">
+                    <div class="project-header">
+                        <span class="project-category-badge data">Data Engineering</span>
+                        <a href="https://github.com/iliaszaki/hadoop-pyspark-analytics" target="_blank" class="project-link" aria-label="View on GitHub">↗</a>
+                    </div>
+                    <h3>Hadoop & PySpark Analytics</h3>
+                    <p>Big Data processing on 100k+ orders from the Olist Brazilian e-commerce dataset — delivery KPIs, revenue aggregations, window functions, RDD operations. Full Hadoop cluster via Docker.</p>
+                    <div class="project-tags">
+                        <span>PySpark</span><span>Hadoop</span><span>Docker</span><span>Jupyter</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="web">
+                    <div class="project-header">
+                        <span class="project-category-badge web">Web & Cloud</span>
+                        <a href="https://github.com/iliaszaki/Cloud-Transcriber" target="_blank" class="project-link" aria-label="View on GitHub">↗</a>
+                    </div>
+                    <h3>Cloud Transcriber</h3>
+                    <p>Audio transcription service with language detection and history tracking. Cloud deployment with infrastructure managed as code via Terraform.</p>
+                    <div class="project-tags">
+                        <span>FastAPI</span><span>Docker</span><span>Terraform</span><span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="web">
+                    <div class="project-header">
+                        <span class="project-category-badge web">Web & Cloud</span>
+                        <a href="https://github.com/iliaszaki/Weather_app" target="_blank" class="project-link" aria-label="View on GitHub">↗</a>
+                    </div>
+                    <h3>Weather App</h3>
+                    <p>Weather API with caching, geocoding and a full CI/CD pipeline via GitHub Actions. Containerised and deployed with Docker.</p>
+                    <div class="project-tags">
+                        <span>FastAPI</span><span>Docker</span><span>GitHub Actions</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="web">
+                    <div class="project-header">
+                        <span class="project-category-badge web">Web & Cloud</span>
+                        <a href="https://github.com/iliaszaki/QuickQCM" target="_blank" class="project-link" aria-label="View on GitHub">↗</a>
+                    </div>
+                    <h3>QuickQCM</h3>
+                    <p>Web platform for creating and grading MCQ exams with automated correction via image recognition. Reduces manual grading to zero.</p>
+                    <div class="project-tags">
+                        <span>PHP</span><span>Python</span><span>CSS</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="ml">
+                    <div class="project-header">
+                        <span class="project-category-badge ml">ML & AI</span>
+                        <a href="https://github.com/iliaszaki/MLPadelProject" target="_blank" class="project-link" aria-label="View on GitHub">↗</a>
+                    </div>
+                    <h3>ML Padel</h3>
+                    <p>Predicting racket impact location from audio and vibration signals. Compares CNN, SVM and tree-based classifiers on time-series sensor data.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>scikit-learn</span><span>Jupyter</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="research">
+                    <div class="project-header">
+                        <span class="project-category-badge research">Research</span>
+                        <a href="https://github.com/iliaszaki/blockchain-from-scratch" target="_blank" class="project-link" aria-label="View on GitHub">↗</a>
+                    </div>
+                    <h3>Blockchain from Scratch</h3>
+                    <p>Full blockchain implementation from scratch — PoW and PoS consensus, RSA-signed transactions, smart contracts, digital wallets and an NFT collection.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>Cryptography</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="research">
+                    <div class="project-header">
+                        <span class="project-category-badge research">Research</span>
+                        <a href="https://github.com/iliaszaki/quantum-computing-qiskit" target="_blank" class="project-link" aria-label="View on GitHub">↗</a>
+                    </div>
+                    <h3>Quantum Computing</h3>
+                    <p>Grover's search algorithm with oracle design and amplitude amplification. Simulated locally and executed on real IBM Quantum hardware via Qiskit Runtime.</p>
+                    <div class="project-tags">
+                        <span>Qiskit</span><span>Python</span><span>IBM Quantum</span>
+                    </div>
+                </div>
+
+                <div class="project-card fade-in" data-category="research">
+                    <div class="project-header">
+                        <span class="project-category-badge research">Research</span>
+                        <a href="https://github.com/iliaszaki/metaheuristics-tsp" target="_blank" class="project-link" aria-label="View on GitHub">↗</a>
+                    </div>
+                    <h3>Metaheuristics TSP</h3>
+                    <p>Solving the Travelling Salesman Problem with Ant Colony Optimization, Tabu Search and Genetic Algorithm. Vectorised with NumPy and benchmarked across problem sizes.</p>
+                    <div class="project-tags">
+                        <span>Python</span><span>NumPy</span><span>Optimization</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2 class="section-title fade-in">Get in <span class="accent">Touch</span></h2>
+            <p class="contact-desc fade-in">Open to Data Engineer and Data Analyst opportunities. Feel free to reach out.</p>
+            <div class="contact-links fade-in">
+                <a href="https://www.linkedin.com/in/ilias-zaki-b5841a226" target="_blank" class="contact-card">
+                    <div class="contact-icon">in</div>
+                    <span class="contact-label">LinkedIn</span>
+                    <span class="contact-sub">ilias-zaki-b5841a226</span>
+                </a>
+                <a href="https://github.com/iliaszaki" target="_blank" class="contact-card">
+                    <div class="contact-icon">gh</div>
+                    <span class="contact-label">GitHub</span>
+                    <span class="contact-sub">iliaszaki</span>
+                </a>
+                <a href="mailto:zakii.iliaas@gmail.com" class="contact-card">
+                    <div class="contact-icon">@</div>
+                    <span class="contact-label">Email</span>
+                    <span class="contact-sub">zakii.iliaas@gmail.com</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <span>Ilias Zaki · 2025</span>
+            <a href="https://github.com/iliaszaki/iliaszaki.github.io" target="_blank">Source ↗</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
