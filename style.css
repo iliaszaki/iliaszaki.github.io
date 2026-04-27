@@ -202,16 +202,18 @@ section:nth-child(even) { background: var(--bg-secondary); }
     gap: 3rem;
     align-items: start;
 }
-.about-photo { display: flex; justify-content: center; }
+.about-photo { display: flex; justify-content: center; align-items: flex-start; }
 .profile-photo {
     width: 200px;
     height: 200px;
+    min-width: 200px;
     border-radius: 50%;
     object-fit: cover;
-    object-position: top;
+    object-position: center top;
     border: 3px solid var(--accent-blue);
     box-shadow: 0 0 0 6px rgba(0, 120, 212, 0.15);
     transition: transform var(--transition), box-shadow var(--transition);
+    display: block;
 }
 .profile-photo:hover {
     transform: scale(1.04);
@@ -568,7 +570,9 @@ footer {
         z-index: 99;
     }
     .about-grid { grid-template-columns: 1fr; gap: 2rem; justify-items: center; }
-    .about-text { text-align: center; }
+    .about-photo { width: auto; }
+    .profile-photo { width: 150px; height: 150px; min-width: 150px; }
+    .about-text { text-align: center; width: 100%; }
     .about-stats { grid-template-columns: repeat(3, 1fr); width: 100%; }
     .timeline { padding-left: 1.5rem; }
     .contact-links { flex-direction: column; }
