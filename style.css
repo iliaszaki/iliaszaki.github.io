@@ -334,6 +334,65 @@ section:nth-child(even) { background: var(--bg-secondary); }
     font-weight: 500;
 }
 
+/* ── EDUCATION ── */
+.edu-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.25rem;
+}
+.edu-card {
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    transition: border-color var(--transition), transform var(--transition);
+}
+.edu-card:hover {
+    border-color: var(--accent-blue);
+    transform: translateY(-4px);
+}
+.edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+.edu-header h3 { font-size: 1rem; font-weight: 600; }
+.edu-school {
+    display: block;
+    color: var(--accent-blue);
+    font-size: 0.875rem;
+    font-weight: 500;
+    margin-top: 0.2rem;
+}
+.edu-note { font-size: 0.82rem; color: var(--text-secondary); }
+.edu-badge {
+    display: inline-block;
+    font-size: 0.72rem;
+    font-weight: 600;
+    padding: 0.15rem 0.6rem;
+    border-radius: 5px;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    align-self: flex-start;
+}
+.edu-badge.current {
+    background: rgba(0, 120, 212, 0.15);
+    color: #58a6ff;
+    border: 1px solid rgba(0, 120, 212, 0.3);
+}
+.timeline-type {
+    display: block;
+    font-size: 0.78rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin-top: 0.1rem;
+}
+
 /* ── SKILLS ── */
 .skills-grid {
     display: grid;
